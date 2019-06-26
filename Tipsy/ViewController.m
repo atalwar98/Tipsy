@@ -46,13 +46,11 @@
         self.billField.frame= CGRectMake(self.billField.frame.origin.x,
 self.billField.frame.origin.y+30,self.billField.frame.size.width,self.billField.frame.size.height);
         
-        
     }];
     
     [UIView animateWithDuration:1 animations:^{
         self.tipLabel.alpha = 0;
     }];
-    
     
 }
 
@@ -63,8 +61,6 @@ self.billField.frame.origin.y+30,self.billField.frame.size.width,self.billField.
     
     [UIView animateWithDuration:0.2 animations:^{
         self.billField.frame = newFrame;
-        
-        
         
     }];
     
