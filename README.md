@@ -4,7 +4,7 @@
 
 Submitted by: **Anika Talwar**
 
-Time spent: **5** hours spent in total
+Time spent: **4.5** hours spent in total
 
 ## User Stories
 
