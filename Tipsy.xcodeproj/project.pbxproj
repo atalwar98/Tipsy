@@ -15,6 +15,7 @@
 		2F15B04722C2C3B60092AA7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F15B04622C2C3B60092AA7E /* main.m */; };
 		2F15B05122C2C3B60092AA7E /* TipsyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F15B05022C2C3B60092AA7E /* TipsyTests.m */; };
 		2F15B05C22C2C3B70092AA7E /* TipsyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F15B05B22C2C3B70092AA7E /* TipsyUITests.m */; };
+		2F15B06E22C338790092AA7E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F15B06D22C338790092AA7E /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2F15B05722C2C3B70092AA7E /* TipsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F15B05B22C2C3B70092AA7E /* TipsyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsyUITests.m; sourceTree = "<group>"; };
 		2F15B05D22C2C3B70092AA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F15B06C22C338790092AA7E /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2F15B06D22C338790092AA7E /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		2F15B02B22C2C3B50092AA7E = {
 			isa = PBXGroup;
 			children = (
+				2F15B06C22C338790092AA7E /* SettingsViewController.h */,
+				2F15B06D22C338790092AA7E /* SettingsViewController.m */,
 				2F15B03622C2C3B60092AA7E /* Tipsy */,
 				2F15B04F22C2C3B60092AA7E /* TipsyTests */,
 				2F15B05A22C2C3B70092AA7E /* TipsyUITests */,
@@ -265,6 +270,7 @@
 				2F15B03C22C2C3B60092AA7E /* ViewController.m in Sources */,
 				2F15B04722C2C3B60092AA7E /* main.m in Sources */,
 				2F15B03922C2C3B60092AA7E /* AppDelegate.m in Sources */,
+				2F15B06E22C338790092AA7E /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
